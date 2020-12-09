@@ -1,0 +1,7 @@
+<button mat-raised-button (click)="loadData()">Load data</button>
+<div>
+  <mat-progress-spinner value="40"></mat-progress-spinner>
+  <mat-spinner *ngIf="showSpinner" color="warn"></mat-spinner>
+</div>
+
+<hr>
